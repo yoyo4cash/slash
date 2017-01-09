@@ -162,7 +162,7 @@ COLOR_RESET = colorama.Fore.RESET + colorama.Back.RESET + colorama.Style.RESET_A
 
 
 def make_styler(style):
-    return lambda s: '{0}{1}{2}'.format(style, s, COLOR_RESET)
+    return lambda s: s
 
 UNDERLINED = '\x1b[4m'
 
